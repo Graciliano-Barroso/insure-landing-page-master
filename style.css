@@ -168,3 +168,36 @@ h2 {
     left: 0px;
     top: 528px;
 }
+
+.section-different {
+    display: block;
+    background-color: var(--Very-Light-Gray);
+    color: var(--Very-Dark-Violet);
+    margin-top: 180px;
+    font-weight: 700;
+}
+
+.section-different h3 {
+    font-size: 78px;
+    margin-top: 60px;
+}
+
+.section-differentials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-differentials img {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.section-differentials h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section-differentials p {
+    font-family: var(--Karla);
+    color: var(--Dark-Grayish-Violet);
+}
