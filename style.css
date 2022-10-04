@@ -272,7 +272,6 @@ footer {
 
 .icon-bar {
     display: flex;
-
   }
   
   /* Style the icon bar links */
@@ -367,4 +366,37 @@ footer {
     text-decoration: underline;
     color: var(--Very-Dark-Violet);
     font-weight: 700;
+  }
+
+  @media screen and (max-width: 375px) {
+    .nav-bar-list {
+        display: none;
+    }
+
+    .ripples-right {
+        display: none;
+    }
+    
+    .ripples-left {
+        display: none;
+    }
+
+    .footer-img {
+        display: none;
+    }
+
+    .section-know-more div img {
+        display: none;
+    }
+
+    .footer-box {
+        display: block;
+    }
+
+    .links {
+        display: block;
+    }
+
+
+
   }
