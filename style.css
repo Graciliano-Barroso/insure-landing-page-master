@@ -118,18 +118,6 @@ h2 {
     padding: 10px 25px 10px 25px;
     border: 2px solid var(--Very-Light-Gray);
     background-color: var(--Dark-Violet);
-    text-decoration: none;
-    color: var(--Very-Light-Gray);
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: .5s;
-}
-.section-box button {
-    padding: 10px 25px 10px 25px;
-    border: 2px solid var(--Very-Light-Gray);
-    background-color: var(--Dark-Violet);
-    text-decoration: none;
     color: var(--Very-Light-Gray);
     font-size: 13px;
     font-weight: 700;
@@ -141,7 +129,6 @@ h2 {
     padding: 10px 25px 10px 25px;
     border: 2px solid var(--Very-Light-Gray);
     background-color: var(--Very-Light-Gray);
-    text-decoration: none;
     color: var(--Dark-Violet);
     font-size: 13px;
     font-weight: 700;
@@ -266,14 +253,14 @@ footer {
     background-color: var(--Very-Light-Gray);
 }
 
+.footer-logo {
+    z-index: 1;
+}
+
 .footer-img {
     position: absolute;
     left: 0;
     top: 1950px;
-}
-
-.footer-logo {
-    z-index: 1;
 }
 
 .footer-box {
@@ -285,6 +272,7 @@ footer {
 
 .icon-bar {
     display: flex;
+
   }
   
   /* Style the icon bar links */
@@ -350,6 +338,10 @@ footer {
     text-transform: uppercase;
     color: var(--Dark-Grayish-Violet);
     padding-top: 30px;
+  }
+
+  .links-list {
+    z-index: 1;
   }
 
   .links div {
