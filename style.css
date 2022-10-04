@@ -16,13 +16,19 @@
 
 body {
     font-family: var(--Karla);
-    margin: 0 150px;
 }
 
 header{
     display: flex;
+    margin: 20px 0;    
+    padding: 0 150px;
+    align-items: center;    
     justify-content: space-between;
-    margin: 20px 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -45,7 +51,6 @@ header{
     font-size: 13px;
     font-weight: 700;
     color: var(--Grayish-Blue);
-    margin: 10px 0 6px 0;
     transition: 1s;
 }
 
@@ -88,6 +93,63 @@ header{
 /* Fim do header */
 
 section {
+    display: flex;
     font-family: var(--DM-Serif-Display);
     background-color: var(--Dark-Violet);
+    color: var(--Very-Light-Gray);
+    padding: 120px 150px;
+}
+
+hr {
+    width: 200px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 90px;
+    margin-top: 70px;
+}
+
+.section-box p {
+    margin: 30px 0;
+}
+
+.section-box button {
+    padding: 10px 25px 10px 25px;
+    border: 2px solid var(--Very-Light-Gray);
+    background-color: var(--Dark-Violet);
+    text-decoration: none;
+    color: var(--Very-Light-Gray);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.section-box button {
+    padding: 10px 25px 10px 25px;
+    border: 2px solid var(--Very-Light-Gray);
+    background-color: var(--Dark-Violet);
+    text-decoration: none;
+    color: var(--Very-Light-Gray);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.section-box button:hover {
+    padding: 10px 25px 10px 25px;
+    border: 2px solid var(--Very-Light-Gray);
+    background-color: var(--Very-Light-Gray);
+    text-decoration: none;
+    color: var(--Dark-Violet);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.intro-img {
+    position: absolute;
+    right: 150px;
 }
