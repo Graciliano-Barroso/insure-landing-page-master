@@ -173,7 +173,6 @@ h2 {
     font-family: var(--DM-Serif-Display);
     padding: 130px 100px;
     display: block;
-    background-color: var(--Very-Light-Gray);
     color: var(--Very-Dark-Violet);
     margin-top: 180px;
     font-weight: 700;
@@ -208,7 +207,7 @@ h2 {
     font-family: var(--DM-Serif-Display);
     background-color: var(--Dark-Violet);
     color: var(--Very-Light-Gray);
-    margin: 0 100px;
+    margin: 0 100px 150px;
 }
 
 .section-know-more-box {
@@ -220,6 +219,7 @@ h2 {
 h5 {
     margin: 70px 0;
     font-size: 55px;
+    font-weight: 700;
 }
 
 .section-know-more div img {
@@ -260,3 +260,119 @@ h5 {
     display: flex;
     align-items: center;
 }
+
+footer {
+    padding: 50px 100px;
+    background-color: var(--Very-Light-Gray);
+}
+
+.footer-img {
+    position: absolute;
+    left: 0;
+    top: 1950px;
+}
+
+.footer-logo {
+    z-index: 1;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icon-bar {
+    display: flex;
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .facebook {    
+    padding: 3px 2px 0 8px;
+    margin: 5px 5px;
+    background: var(--Grayish-Blue);
+    color: var(--Very-Light-Gray);
+  }
+
+  .facebook:hover {
+    background-color: var(--Very-Dark-Violet);
+  }
+  
+  .twitter {
+    padding: 2px 2px 0 2px;
+    margin: 5px 5px;
+    background: var(--Very-Light-Gray);    
+    color: var(--Grayish-Blue);
+  }
+
+  .twitter i:hover {
+    color: var(--Very-Dark-Violet);
+  }
+  
+  .pinterest {
+    padding: 2px 2px 0 2px;
+    margin: 5px 5px;
+    background: var(--Very-Light-Gray);
+    color: var(--Grayish-Blue);
+  }
+
+  .pinterest:hover {
+    color: var(--Very-Dark-Violet);
+  }
+  
+  .instagram {
+    padding: 2px 2px 0 2px;
+    margin: 5px 5px;
+    background: var(--Very-Light-Gray);
+    color: var(--Grayish-Blue);
+  }
+
+  .instagram:hover {
+    color: var(--Very-Dark-Violet);
+  }
+
+  .footer-hr {
+    width: 100%;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    color: var(--Dark-Grayish-Violet);
+    padding-top: 30px;
+  }
+
+  .links div {
+    margin-right: 150px;
+  }
+
+  .links ul {
+    width: 120px;
+    margin-top: 30px;
+  }
+
+  .links li {
+    margin-bottom: 20px;
+  }
+
+  .links a {    
+    text-decoration: none;
+    color: var(--Very-Dark-Violet);
+    font-weight: 700;
+  }
+
+  .links a:hover {
+    text-decoration: underline;
+    color: var(--Very-Dark-Violet);
+    font-weight: 700;
+  }
