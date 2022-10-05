@@ -19,20 +19,27 @@
   
 </head>
 <body>
-  <header>
+  <header class="header-desktop">
+    
     <div>
-      <h1><img class="logo" src="./images/logo.svg" alt="Logotipo da pagina"></h1>
+      <h1><img class="logo-desktop" src="./images/logo.svg" alt="Logotipo da pagina"></h1>
     </div>
-    <div class="nav-bar-list">
-      <ul>
-        <a href="#How-we-work"><li>How we work</li></a>
-        <a href="#Blog"><li>Blog</li></a>
-        <a href="#Account"><li>Account</li></a>        
-      </ul>
-      <a class="plans" href="#View-plans">View plans</a>
+    <div class="menu-hamburger">
+      <h1><a href="#menu"><img src="./images/icon-hamburger.svg" alt="Logotipo da pagina"></a></h1>
     </div>
+    <div class="nav-bar-list ">
+      <div class="list-link">
+        <a class="list-link-a" href="#How-we-work">How we work</a>
+        <a class="list-link-a" href="#Blog">Blog</a>
+        <a class="list-link-a" href="#Account">Account</a>        
+        <button class="list-link-button">View plans</button>
+        <img class="list-link-ripples" src="./images/bg-pattern-mobile-nav.svg" alt="Ripples on the lateral menu">
+      </div>
+    </div>     
+        
   </header>
   <main>
+    <img class="intro-img-mobile" src="./images/image-intro-mobile.jpg" alt="Imagem de introdução na versão mobile">
     <section class="first-section">
       <div class="section-box">
         <hr>
@@ -42,11 +49,15 @@
           and technology to help you find the plan that’s right for you. Ensure you<br> 
           and your loved ones are protected.
         </p>
-        <button>View plans</button>
+        <div class="intro-button">
+          <button>View plans</button>
+        </div>
       </div>
       <img class="intro-img" src="./images/image-intro-desktop.jpg" alt="fot da introdução">
-      <img class="ripples-right" src="./images/bg-pattern-intro-right-desktop.svg" alt="Linhas onduladas a direita da intro">
-      <img class="ripples-left" src="./images/bg-pattern-intro-left-desktop.svg" alt="Linhas onduladas a left da intro">
+      <img class="ripples-right-desktop" src="./images/bg-pattern-intro-right-desktop.svg" alt="Linhas onduladas a rigth da intro">
+      <img class="ripples-right-mobile" src="./images/bg-pattern-intro-right-mobile.svg" alt="Linhas onduladas a rigth da intro mobile">
+      <img class="ripples-left-desktop" src="./images/bg-pattern-intro-left-desktop.svg" alt="Linhas onduladas a left da intro">
+      <img class="ripples-left-mobile" src="./images/bg-pattern-intro-left-mobile.svg" alt="Linhas onduladas a left da intro mobile">
     </section>
     
     <section class="section-different">
@@ -157,19 +168,7 @@
       </div>
     </footer>
     
-  </main>
-  
-
-  
-
-  
-  
-  
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </main>  
+  <script src="./index.js"></script>
 </body>
 </html>
