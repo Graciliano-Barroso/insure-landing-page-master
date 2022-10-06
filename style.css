@@ -400,6 +400,51 @@ footer {
         display: flex;
     }
 
+    #toggle {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background-color: var(--Very-Light-Gray);
+        border: 1px solid var(--Very-Dark-Violet);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+    }
+
+    
+
+    #toggle::before {
+        content: '';
+        position: absolute;
+        width: 22px;
+        height: 2px;
+        background-color: var(--Very-Dark-Violet);
+        transition: 0.5s;
+        transform: translatey(-8px);
+        box-shadow: 0 8px 0 var(--Very-Dark-Violet);
+    }
+
+    #toggle.active::before {
+        transform: translatey(0px) rotate(45deg);
+        box-shadow: 0 0 0 var(--Very-Dark-Violet);
+    }
+
+    #toggle::after {
+        content: '';
+        position: absolute;
+        width: 22px;
+        height: 2px;
+        background: var(--Very-Dark-Violet);
+        transition: 0.5s;
+        transform: translatey(8px);
+    }
+
+    #toggle.active::after {
+        transform: translatey(0px) rotate(-45deg);
+    }
+
     .nav-bar-list {
         display: flex;
         position: absolute;
