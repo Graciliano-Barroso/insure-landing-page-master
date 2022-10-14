@@ -384,7 +384,7 @@ footer {
     font-weight: 700;
   }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .header-desktop{
         display: flex;
         justify-content: space-between;
