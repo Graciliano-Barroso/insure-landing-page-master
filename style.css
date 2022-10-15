@@ -444,23 +444,23 @@ footer {
     .nav-bar-list {
         display: flex;
         position: absolute;
-        top: 73px;
-        left: 400px;
+        top: 77px;
+        left: 480px;
         background-color: var(--Side-bar);
-        width: 375px;
-        height: 531px;
-        right: -375px;
+        width: 480px;
+        height: 577px;
+        right: -480px ;
         transition: 1s;
     }
 
     .nav-bar-list-ativo {
         display: flex;
         position: absolute;
-        top: 73px;
+        top: 77px;
         left: 0px;
         background-color: var(--Side-bar);
-        width: 375px;
-        height: 531px;
+        width: 480px;
+        height: 577px;
         transition: 1s;
     }
 
@@ -491,6 +491,7 @@ footer {
     }
 
     .list-link-ripples {
+        width: 480px;
         display: flex;
         position: absolute;
         bottom: 0;
@@ -570,6 +571,7 @@ footer {
     .section-different h3 {
         display: flex;
         align-items: center;
+        justify-content: center;
         font-size: 48px;
         margin-top: 60px;
     }
