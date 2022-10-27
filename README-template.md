@@ -37,7 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Video URL introducing the project.: [click here](https://www.linkedin.com/posts/gracilianobarroso_e-a%C3%AD-pessoal-mais-um-projeto-conclu%C3%ADdo-ugcPost-6986759349930995712-4h38?utm_source=share&utm_medium=member_desktop)
+- Live Site URL: [click here](https://graciliano-barroso.github.io/insure_landing_page/)
 
 ## My process
 
