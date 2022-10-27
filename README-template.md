@@ -29,12 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-
-![Challenge result in mobile version](./challenge-result/Mobile-version.png)
+![Challenge result in desktop version](./challenge-result/Desktop-version.png)
 
 ##
 
-![Challenge result in desktop version](./challenge-result/Desktop-version.png)
+![Challenge result in mobile version](./challenge-result/Mobile-version.png)
 
 
 ### Links
@@ -51,9 +50,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - JS library
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
