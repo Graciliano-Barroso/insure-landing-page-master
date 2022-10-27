@@ -1,3 +1,5 @@
+
+
 let toggle = document.getElementById('toggle');
 let botaoMenu = document.querySelector(".menu-hamburger");
 let menuLateral = document.querySelector(".nav-bar-list");

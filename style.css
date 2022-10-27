@@ -445,9 +445,9 @@ footer {
         display: flex;
         position: absolute;
         top: 77px;
-        left: 480px;
+        left: 374px;
         background-color: var(--Side-bar);
-        width: 480px;
+        width: 375px;
         height: 577px;
         right: -480px ;
         transition: 1s;
@@ -459,8 +459,8 @@ footer {
         top: 77px;
         left: 0px;
         background-color: var(--Side-bar);
-        width: 480px;
-        height: 577px;
+        width: 375px;
+        height: 500px;
         transition: 1s;
     }
 
@@ -491,7 +491,7 @@ footer {
     }
 
     .list-link-ripples {
-        width: 480px;
+        width: 375px;
         display: flex;
         position: absolute;
         bottom: 0;
