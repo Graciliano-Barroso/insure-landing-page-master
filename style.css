@@ -407,9 +407,7 @@ footer {
         justify-content: center;
         align-items: center;
         transition: 0.2s;
-    }
-
-    
+    }    
 
     #toggle::before {
         content: '';
@@ -480,14 +478,27 @@ footer {
         color: var(--Very-Light-Gray)
     }
 
+    .list-link-a:hover {    
+        color: var(--Grayish-Blue);        
+        transition: 1s;
+    }
+
     .list-link-button {
         font-size: 20px;
         background-color: transparent;
         color: var(--Very-Light-Gray);
         border: 1px solid var(--Very-Light-Gray);
         font-weight: 700;
-        padding: 15px 110px;
+        padding: 15px 100px;
+        transition: .5s;
         z-index: 1;
+    }
+
+    .list-link-button:hover {
+        padding: 15px 100px;
+        border: 1px solid var(--Grayish-Blue);
+        color: var(--Grayish-Blue);
+        transition: .5s;
     }
 
     .list-link-ripples {
