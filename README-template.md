@@ -32,6 +32,8 @@ Users should be able to:
 ![Challenge result in desktop version](./challenge-result/Desktop-version.png)
 ##
 ![Challenge result in mobile version](./challenge-result/Desktop-version.png)
+##
+![Challenge result in mobile version](./challenge-result/Frontend-Mentor%20_%20Insure-landing-page.mp4)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
