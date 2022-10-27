@@ -48,37 +48,84 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - JS library
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+One of the things I learned in this project was the application of a property called z-index and another was to make a menu with animation changing with the click from menu amburger to X to close.
 
-To see how you can add code snippets, see below:
+Below I will leave examples of the two things I learned:
+
+This one about the z-index:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<img class="ripples-right-desktop" src="./assets/images/bg-pattern-intro-right-desktop.svg" alt="Linhas onduladas a rigth da intro">
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.ripples-right-desktop {
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 81px;
 }
 ```
+And this one about the animated menu:
+
+```html
+<div id="toggle"></div>
+```
+```css
+#toggle {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: var(--Very-Light-Gray);
+    border: 1px solid var(--Very-Dark-Violet);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}    
+
+#toggle::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: var(--Very-Dark-Violet);
+    transition: 0.5s;
+    transform: translatey(-8px);
+    box-shadow: 0 8px 0 var(--Very-Dark-Violet);
+}
+
+#toggle.active::before {
+    transform: translatey(0px) rotate(45deg);
+    box-shadow: 0 0 0 var(--Very-Dark-Violet);
+}
+
+#toggle::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background: var(--Very-Dark-Violet);
+    transition: 0.5s;
+    transform: translatey(8px);
+}
+
+#toggle.active::after {
+    transform: translatey(0px) rotate(-45deg);
+}
+```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+let toggle = document.getElementById('toggle');
+toggle.addEventListener('click', ()=>{
+    toggle.classList.toggle('active');
+});
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
