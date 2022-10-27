@@ -31,7 +31,7 @@ Users should be able to:
 
 ![Challenge result in desktop version](./challenge-result/Desktop-version.png)
 ##
-![Challenge result in mobile version](./challenge-result/Desktop-version.png)
+![Challenge result in mobile version](./challenge-result/Mobile-version.png)
 ##
 ![Challenge result in mobile version](./challenge-result/Frontend-Mentor_Insure-landing-page.webm)
 
