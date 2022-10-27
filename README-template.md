@@ -29,11 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Challenge result in desktop version](./challenge-result/Desktop-version.png)
-##
+
 ![Challenge result in mobile version](./challenge-result/Mobile-version.png)
+
 ##
-![Challenge result in mobile version](./challenge-result/Frontend-Mentor_Insure-landing-page.webm)
+
+![Challenge result in desktop version](./challenge-result/Desktop-version.png)
+
 
 ### Links
 
